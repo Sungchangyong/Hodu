@@ -1,0 +1,320 @@
+.html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    display: flex;
+    height: 902px;
+    width: 1920px;
+    align-items: center;
+    background-color: #f2e9d8;
+}
+
+h1, h2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+.hodu-logo{
+    width: 130px;
+    height: 40px;
+    left: 320px;
+    top: 31px;
+    margin-right: auto;
+    margin-left: 320px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1920px;
+    height: 102px;
+
+}
+h2 {
+    margin-top: 304px;
+    left: 320px;
+}
+
+.home{
+    margin-right: 30px;
+    text-decoration-line: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: black;
+}
+.about{
+    margin-right: 30px;
+    text-decoration-line: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: black;
+}
+.support{
+    margin-right: 49px;
+    text-decoration-line: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: black;
+}
+.Download-button{
+    margin-right: 320px;
+    width: 140px;
+    top: 26px;
+    background-color: #D97652;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.header-text1{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.header-text2{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.box{
+    margin-left: 1185px;
+    margin-top: 136px;
+    width: 415px;
+    height: 766px;
+}
+
+.cat1{
+    display: flex;
+    align-items: center;
+    margin: 80px 320px 120px;
+    gap: 110px;
+}
+
+.cat1-1{
+    width: 660px;
+    height: 390px;
+    border: none;
+    border-radius: 30px;
+}
+.main-text-1{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.main-text-2{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.cat2{
+    margin: 120px 0 68px;
+}
+.main-text2-1{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #d97652;
+    margin-left: 523px;
+    margin-bottom: 40px;
+}
+.main-text2-2{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-left: 605px;
+    margin-bottom: 88px;
+}
+.main-text2-2 strong{
+    color: #D97652;
+}
+
+.cats{
+    display: flex;
+    gap: 72px;
+    margin-left: 320px;
+    margin-bottom: 72px;
+}
+.cats img{
+    border: none;
+    border-radius: 30px;
+}
+.main-text3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 815px;
+    gap: 28px;
+}
+.main-text3-1{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+
+}
+.show-more-button{
+    width: 143px;
+    height: 50px;
+    margin-bottom: 80px;
+    background-color: #D97652;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 73.5px;
+}
+.line{
+    width: 1278px;
+    height: 1px;
+    color: #c4c4c4;
+    margin-left: 320px;
+
+}
+.map{
+    margin: 68px 320px 80px;
+}
+
+.map-text1{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.map-text2{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 48px;
+}
+#map{
+    width: 1278px;
+    height: 520px;
+    border-radius: 12px;
+    background-color: green;
+
+}
+.Subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 320px;
+    margin-right: 0;
+    width: 1280px;
+    height: 200px;
+    background-color: #263140;
+    border-radius: 30px;
+    color: white;
+}
+.Subscribe1{
+    margin-left: 58px;
+    width: 485px;
+    height: 99px;
+}
+.Subscribe2{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    margin-top: auto;
+}
+.Subscribe3{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 530px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    margin-right: 58px;
+
+}
+
+.email-button{
+    width: 135px;
+    top: 75px;
+    background-color: #D97652;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 5px 6px 5px 0;
+}
+
+.mail-icon{
+    top: 88px;
+    left: 720px;
+    width: 24px;
+    height: 24px;
+    margin-left: 28px;
+    margin-right: 16px;
+}
+
+.cat3 {
+    position: relative;
+    width: 1920px;
+    height: 340px;
+    background-image: url('images/9.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin-top: -100px;
+    z-index: -1;
+}
+
+.bottom-box {
+    width: 1920px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    width: 1920px;
+    height: 160px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hodu-logo2{
+    width: 226px;
+    height: 70px;
+    top: 45px;
+    margin-right: auto;
+    margin-left: 320px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    width: 228px;
+    height: 42px;
+    margin-right: 320px;
+    gap: 20px;
+}
